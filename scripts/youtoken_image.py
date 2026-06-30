@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import Any
 
 
-BASE_URL = "https://token.youzhuapp.com"
+BASE_URL = "https://token.kynexis.cc"
 DEFAULT_API_KEY_FILE = Path.home() / ".codex" / "youtoken-image.env"
 DEFAULT_MODEL = "gpt-image-2"
 DEFAULT_SIZE = "1024x1024"

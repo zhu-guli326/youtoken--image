@@ -2,10 +2,10 @@
 
 ## Endpoints
 
-- Generate: `POST https://token.youzhuapp.com/v1/images/generations`
-- Edit: `POST https://token.youzhuapp.com/v1/images/edits`
+- Generate: `POST https://token.kynexis.cc/v1/images/generations`
+- Edit: `POST https://token.kynexis.cc/v1/images/edits`
 
-`--base-url` accepts either `https://token.youzhuapp.com` or `https://token.youzhuapp.com/v1`.
+`--base-url` accepts either `https://token.kynexis.cc` or `https://token.kynexis.cc/v1`.
 
 ## Authentication
 

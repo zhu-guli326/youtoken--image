@@ -1,11 +1,11 @@
 ---
 name: youtoken-image
-description: Generate or edit images synchronously through the Youtoken OpenAI-compatible image API at https://token.youzhuapp.com. Use when the user asks to call the configured image generation API, generate UI images, create raster assets, edit images, test the Youtoken image endpoint, or save generated image files locally. The CLI reads YOUTOKEN_IMAGE_API_KEY from the environment or ~/.codex/youtoken-image.env, supports /v1/images/generations and /v1/images/edits, and handles both b64_json and URL image responses.
+description: Generate or edit images synchronously through the Youtoken OpenAI-compatible image API at https://token.kynexis.cc. Use when the user asks to call the configured image generation API, generate UI images, create raster assets, edit images, test the Youtoken image endpoint, or save generated image files locally. The CLI reads YOUTOKEN_IMAGE_API_KEY from the environment or ~/.codex/youtoken-image.env, supports /v1/images/generations and /v1/images/edits, and handles both b64_json and URL image responses.
 ---
 
 # Youtoken Image
 
-Generate or edit images through `https://token.youzhuapp.com` and save final image files locally before replying.
+Generate or edit images through `https://token.kynexis.cc` and save final image files locally before replying.
 
 ## Quick Workflow
 
@@ -52,7 +52,7 @@ python3 /Users/zzhu/.codex/skills/youtoken-image/scripts/youtoken_image.py gener
 
 ## Defaults
 
-- Base URL: `https://token.youzhuapp.com`
+- Base URL: `https://token.kynexis.cc`
 - Model: `gpt-image-2`
 - Size: `1024x1024`
 - Quality: `medium`
